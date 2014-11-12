@@ -1,106 +1,23 @@
-// Sweet site Kyle!
-
-
-#vote-up{
-	position:absolute;
-	top:310px;
-	right:50px;
-	height:30px;
-	width:130px;
-	background-color:grey;
-}
-#vote-down{
-	position:absolute;
-	top:350px;
-	right:50px;
-	height:30px;
-	width:130px;
-	background-color:grey;
-}
-
-
-
-.wrap_center{
-	position:center;
-}
-
-img {
- opacity: 1.0;
- transition: opacity .3s ease-in-out;
- -moz-transition: opacity .3s ease-in-out;
- -webkit-transition: opacity .3s ease-in-out;
- 
- }
- a:hover img {
- opacity: .6;
- transition: opacity .3s ease-in-out;
- -moz-transition: opacity .3s ease-in-out;
- -webkit-transition: opacity .3s ease-in-out;
- }
-
-
-
-
-/*header*/
-
-#home { 
-  height: 100px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-}
- 
-#home article { 
-  height: 48px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-
-
-.header{
-	width:100%;
- height;200px; /* height of the background image? */
- background:url("images/dream.jpg") repeat-x 0 0;
- text-align:center;
- z-index:1;
-}
-
+/****************************************************************
+							PAGE LAYOUT
+ ****************************************************************/
 .content{
-	font-family: Arial, Geneva,Helvetica, sans-serif;
-	font-size: 100%;
-	background-color:brown;
-	height:1800px;
-	z-index:2;
+	text-align: center;
 }
-#post{
-	position:absolute;
-	top:300px;
-	height:100px;
-	width:80%;
-	background-color:white;
-	z-index:3;
+.filterIcons{
+	display: inline-block;
+	float: left;
+	width: 33%;
 }
-
-#post2{
-	position:absolute;
-	top:420px;
-	height:100px;
-	width:80%;
-	background-color:white;
+input{
+	display: block;
+	margin: 0 auto 20px auto;
 }
-
-#post3{
-	position:absolute;
-	top:540px;
-	height:100px;
-	width:80%;
-	background-color:white;
-}
-
-#footer{
-
+/****************************************************************
+							  MAP
+ ****************************************************************/
+#map_canvas{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto 0 auto;
 }
