@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 
 }
@@ -58,3 +59,28 @@ h2{
 
 
 
+=======
+/****************************************************************
+							PAGE LAYOUT
+ ****************************************************************/
+.content{
+	text-align: center;
+}
+.filterIcons{
+	display: inline-block;
+	float: left;
+	width: 33%;
+}
+input{
+	display: block;
+	margin: 0 auto 20px auto;
+}
+/****************************************************************
+							  MAP
+ ****************************************************************/
+#map_canvas{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+>>>>>>> FETCH_HEAD
